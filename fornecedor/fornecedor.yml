@@ -3,6 +3,7 @@ spring:
     password: root
     username: root
     url: 'jdbc:mysql://localhost:3306/fornecedor'
+    driverClassName: com.mysql.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
